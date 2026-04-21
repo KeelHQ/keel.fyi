@@ -139,6 +139,92 @@ footer {
   opacity: 0.9;
 }
 
+
+.cta-section {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  border: 1px solid #222;
+  border-radius: 8px;
+  background: #111;
+  text-align: center;
+}
+
+.cta-section .cta {
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form {
+  margin-top: 1.5rem;
+}
+
+.signup-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-form form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.signup-form input[type="email"] {
+  padding: 0.6rem 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: inherit;
+  font-size: 0.95rem;
+  min-width: 220px;
+}
+
+.signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.cta-secondary:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.dual-play {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.play-card {
+  padding: 1.5rem;
+  border: 1px solid #222;
+  border-radius: 8px;
+  background: #111;
+}
+
+.play-card h3 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.play-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   header h1 { font-size: 1.6rem; }
